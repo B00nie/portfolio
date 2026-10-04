@@ -1,25 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre mim</title>
+    <title>Bruno Takaya | Sobre mim</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./scripts/script.js" defer></script>
 </head>
 <body>
     <header class="cabecalho">
+        <a class="cabecalho__marca" href="index.html">Bruno Takaya</a>
         <nav class="cabecalho__menu">
                 <a class="cabecalho__menu__link" href="index.html">Home</a>
-                <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+                <a class="cabecalho__menu__link" href="index.html#projetos">Projetos</a>
+                <a class="cabecalho__menu__link" href="about.html" aria-current="page">Sobre mim</a>
         </nav>
     </header>
-    <main class="apresentaçao">
-        <section class="apresentaçao__conteudo">
-            <h1 class="apresentaçao__titulo">Sobre mim</h1>
-            <p class="apresentaçao__texto">Olá! Me chamo Bruno Takaya, sou desenvolvedor Front-end com especialidade em HTML, CSS e Java. Atualmente estou cursando Engenharia da Computação na FIAP em São Paulo capital. Meu objetivo é ajudar pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
-            <p class="apresentaçao__texto">Além de programar, gosto de jogar videogame, assistir séries e filmes, e sair com os amigos. Meus jogos favoritos são Cyberpunk 2077, The Division e GTA V. Minhas séries favoritas são Young Royals, Love Victor e The Blacklist. Meu filme favorito é Ratatouille.</p>
-        </section>
-        <img class="Imagem" src="./assets/Bruno Takaya.png" alt="Bruno Takaya">
+    <main>
+        <div class="apresentaçao">
+            <section class="apresentaçao__conteudo">
+                <h1 class="apresentaçao__titulo">Sobre mim</h1>
+                <p class="apresentaçao__texto">Olá! Me chamo Bruno Takaya, sou desenvolvedor Front-end com especialidade em HTML, CSS e Java. Atualmente estou cursando Engenharia da Computação na FIAP em São Paulo capital. Meu objetivo é ajudar pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+                <p class="apresentaçao__texto">Além de programar, gosto de jogar videogame, assistir séries e filmes, e sair com os amigos. Meus jogos favoritos são Cyberpunk 2077, The Division e GTA V. Minhas séries favoritas são Young Royals, Love Victor e The Blacklist. Meu filme favorito é Ratatouille.</p>
+            </section>
+            <div class="foto">
+                <img class="Imagem" src="./assets/Bruno Takaya.png" alt="Bruno Takaya">
+                <div class="foto__estrelas" aria-hidden="true"></div>
+            </div>
+        </div>
     </main>
     <footer class="rodape">
         <p>Desenvolvido por Bruno Takaya</p>

@@ -3,37 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Bruno Takaya | Home</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./scripts/script.js" defer></script>
 </head>
 <body>
     <header class="cabecalho">
+        <a class="cabecalho__marca" href="index.html">Bruno Takaya</a>
         <nav class="cabecalho__menu">
-                <a class="cabecalho__menu__link" href="index.html">Home</a>
+                <a class="cabecalho__menu__link" href="index.html" aria-current="page">Home</a>
+                <a class="cabecalho__menu__link" href="index.html#projetos">Projetos</a>
                 <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
         </nav>
     </header>
-    <main class="apresentaçao">
-        <section class="apresentaçao__conteudo">
-            <h1 class="apresentaçao__titulo">Eleve seu negócio digital a outro nível <strong class="Titulo-destaque">com um Front-end de qualidade</strong></h1>
-            <p class="apresentaçao__texto">Olá! Sou Bruno Takaya, desenvolvedor Front-end com especialidade em <span>HTML, CSS e Java.</span> Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
-            <div class="apresentaçao__redes-sociais">
-                <h2 class="apresentaçao__redes-sociais__subtitulo">Acesse minhas redes:</h2>
-                <a class="apresentaçao__redes-sociais__links" href="https://github.com/B00nie">
-                    <img src="./assets/github_purple.png" alt="Github">
-                    Github
-                </a>
-                <a class="apresentaçao__redes-sociais__links" href="https://www.instagram.com/bruno_takaya">
-                    <img src="./assets/instagram_purple.png" alt="Instagram">
-                    Instagram
-                </a>
-                <a class="apresentaçao__redes-sociais__links" href="https://www.linkedin.com/in/bruno-takaya-90b4562b6">
-                    <img src="./assets/linkedin_purple.png" alt="Linkedin">
-                    Linkedin
-                </a>  
+    <main>
+        <div class="apresentaçao">
+            <section class="apresentaçao__conteudo">
+                <h1 class="apresentaçao__titulo">Eleve seu negócio digital a outro nível <strong class="Titulo-destaque">com um <span class="sem-quebra">Front-end</span> de qualidade</strong></h1>
+                <p class="apresentaçao__texto">Olá! Sou Bruno Takaya, desenvolvedor Front-end com especialidade em <span>HTML, CSS e Java.</span> Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+                <div class="apresentaçao__redes-sociais">
+                    <h2 class="apresentaçao__redes-sociais__subtitulo">Acesse minhas redes:</h2>
+                    <a class="apresentaçao__redes-sociais__links" href="https://github.com/B00nie">
+                        <img src="./assets/github_purple.png" alt="">
+                        Github
+                    </a>
+                    <a class="apresentaçao__redes-sociais__links" href="https://www.instagram.com/bruno_takaya">
+                        <img src="./assets/instagram_purple.png" alt="">
+                        Instagram
+                    </a>
+                    <a class="apresentaçao__redes-sociais__links" href="https://www.linkedin.com/in/bruno-takaya-90b4562b6">
+                        <img src="./assets/linkedin_purple.png" alt="">
+                        Linkedin
+                    </a>
+                </div>
+            </section>
+            <div class="foto">
+                <img class="Imagem" src="./assets/Bruno Takaya.png" alt="Bruno Takaya">
+                <div class="foto__estrelas" aria-hidden="true"></div>
             </div>
+        </div>
+        <section class="projetos" id="projetos">
+            <h2 class="projetos__titulo">Projetos</h2>
+            <p class="projetos__texto">Direto do meu GitHub, do mais recente para o mais antigo.</p>
+            <ul class="projetos__lista">
+                <li><a class="projetos__item" href="https://github.com/B00nie?tab=repositories">Ver meus projetos no GitHub</a></li>
+            </ul>
         </section>
-        <img  class="Imagem" src="./assets/Bruno Takaya.png" alt="Bruno Takaya">
     </main>
     <footer class="rodape">
         <p>Desenvolvido por Bruno Takaya</p>
